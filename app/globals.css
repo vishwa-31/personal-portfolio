@@ -1,0 +1,216 @@
+@import "tailwindcss";
+
+/* Dark theme (default) */
+:root {
+  color-scheme: dark;
+  --bg-primary: rgb(13, 15, 18);
+  --bg-secondary: rgb(33, 37, 41);
+  --bg-tertiary: rgb(26, 35, 50);
+  --text-primary: rgb(233, 236, 239);
+  --text-secondary: rgb(206, 212, 218);
+  --text-tertiary: rgb(149, 156, 161);
+  --border-color: rgb(52, 58, 64);
+}
+
+/* Light theme */
+html.light {
+  color-scheme: light;
+  --bg-primary: rgb(249, 250, 251);
+  --bg-secondary: rgb(243, 244, 246);
+  --bg-tertiary: rgb(229, 231, 235);
+  --text-primary: rgb(15, 23, 42);
+  --text-secondary: rgb(51, 65, 85);
+  --text-tertiary: rgb(100, 116, 139);
+  --border-color: rgb(203, 213, 225);
+}
+
+@layer base {
+  html {
+    scroll-behavior: smooth;
+  }
+
+  body {
+    background-color: var(--bg-primary);
+    color: var(--text-primary);
+    transition: background-color 0.3s ease, color 0.3s ease;
+  }
+
+  h1 {
+    font-size: 2.25rem;
+    font-weight: bold;
+    color: var(--text-primary);
+  }
+
+  @media (min-width: 768px) {
+    h1 {
+      font-size: 3rem;
+    }
+  }
+
+  h2 {
+    font-size: 1.875rem;
+    font-weight: bold;
+    color: var(--text-primary);
+  }
+
+  @media (min-width: 768px) {
+    h2 {
+      font-size: 2.25rem;
+    }
+  }
+
+  h3 {
+    font-size: 1.5rem;
+    font-weight: 600;
+    color: var(--text-primary);
+  }
+
+  @media (min-width: 768px) {
+    h3 {
+      font-size: 1.875rem;
+    }
+  }
+
+  h4 {
+    font-size: 1.25rem;
+    font-weight: 600;
+    color: var(--text-primary);
+  }
+
+  a {
+    transition-property: color;
+    transition-timing-function: cubic-bezier(0.4, 0, 0.2, 1);
+    transition-duration: 200ms;
+  }
+}
+
+@layer components {
+  .container-section {
+    max-width: 72rem;
+    margin-left: auto;
+    margin-right: auto;
+    padding-left: 1rem;
+    padding-right: 1rem;
+    padding-top: 4rem;
+    padding-bottom: 4rem;
+  }
+
+  @media (min-width: 768px) {
+    .container-section {
+      padding-left: 1.5rem;
+      padding-right: 1.5rem;
+      padding-top: 6rem;
+      padding-bottom: 6rem;
+    }
+  }
+
+  @media (min-width: 1024px) {
+    .container-section {
+      padding-left: 2rem;
+      padding-right: 2rem;
+    }
+  }
+
+  .btn-primary {
+    padding-left: 1.5rem;
+    padding-right: 1.5rem;
+    padding-top: 0.75rem;
+    padding-bottom: 0.75rem;
+    background-color: rgb(14, 165, 233);
+    color: white;
+    font-weight: 600;
+    border-radius: 0.5rem;
+    transition-property: all;
+    transition-timing-function: cubic-bezier(0.4, 0, 0.2, 1);
+    transition-duration: 300ms;
+    transform: scale(1);
+    cursor: pointer;
+  }
+
+  .btn-primary:hover {
+    background-color: rgb(2, 132, 199);
+    transform: scale(1.05);
+  }
+
+  .btn-secondary {
+    padding-left: 1.5rem;
+    padding-right: 1.5rem;
+    padding-top: 0.75rem;
+    padding-bottom: 0.75rem;
+    border: 2px solid rgb(14, 165, 233);
+    color: rgb(14, 165, 233);
+    font-weight: 600;
+    border-radius: 0.5rem;
+    transition-property: all;
+    transition-timing-function: cubic-bezier(0.4, 0, 0.2, 1);
+    transition-duration: 300ms;
+  }
+
+  .btn-secondary:hover {
+    background-color: rgb(14, 165, 233);
+    color: white;
+  }
+
+  .card {
+    background-color: var(--bg-secondary);
+    border: 1px solid var(--border-color);
+    border-radius: 0.5rem;
+    padding: 1.5rem;
+    transition-property: all;
+    transition-timing-function: cubic-bezier(0.4, 0, 0.2, 1);
+    transition-duration: 300ms;
+  }
+
+  .card:hover {
+    border-color: rgb(14, 165, 233);
+    box-shadow: 0 20px 25px -5px rgba(14, 165, 233, 0.2);
+  }
+
+  .section-title {
+    font-size: 2.25rem;
+    font-weight: bold;
+    color: var(--text-primary);
+    margin-bottom: 1rem;
+  }
+
+  .section-subtitle {
+    color: var(--text-secondary);
+    font-size: 1.125rem;
+    margin-bottom: 3rem;
+  }
+
+  .gradient-text {
+    background: linear-gradient(to right, rgb(56, 189, 248), rgb(2, 132, 199));
+    -webkit-background-clip: text;
+    -webkit-text-fill-color: transparent;
+    background-clip: text;
+  }
+
+  .skill-badge {
+    display: inline-block;
+    background-color: rgb(3, 105, 161);
+    color: white;
+    padding: 0.5rem 1rem;
+    border-radius: 9999px;
+    font-size: 0.875rem;
+    margin: 0.5rem;
+  }
+}
+
+/* Custom scrollbar */
+::-webkit-scrollbar {
+  width: 10px;
+}
+
+::-webkit-scrollbar-track {
+  background: var(--bg-primary);
+}
+
+::-webkit-scrollbar-thumb {
+  background: #0ea5e9;
+  border-radius: 5px;
+}
+
+::-webkit-scrollbar-thumb:hover {
+  background: #0284c7;
+}

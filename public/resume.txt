@@ -1,0 +1,86 @@
+VISHWA P
+Software Development Engineer | Full Stack Developer
+
+CONTACT INFORMATION
+Email: vishwap.cse2023@citchennai.net
+Phone: +91 9361753461
+Location: Chennai, India
+GitHub: https://github.com/vishwap
+LinkedIn: https://linkedin.com/in/vishwap
+
+PROFESSIONAL SUMMARY
+Passionate Software Development Engineer with a B.E. in Computer Science & Engineering from Chennai Institute of Technology. 
+Proficient in full-stack development with expertise in building scalable web applications. 
+Strong foundation in data structures, algorithms, and system design. 
+Eager to leverage technical skills and problem-solving abilities to contribute to innovative projects.
+
+TECHNICAL SKILLS
+Languages: JavaScript, TypeScript, Python, Java, SQL, HTML/CSS
+Web Stack: React, Next.js, Node.js, Express, TailwindCSS, Redux
+Tools & DevOps: Git, GitHub, VSCode, Docker, Postman, Figma
+Databases: PostgreSQL, MongoDB, MySQL
+CS Fundamentals: Data Structures, Algorithms, OOP, DBMS, System Design
+
+PROFESSIONAL EXPERIENCE
+
+INTERN - COMPUTER & INFORMATION TECHNOLOGY
+SAIL (Salem Steel Plant), Salem | May 2023 - July 2023
+
+Key Achievements:
+• Developed and deployed a real-time reporting dashboard that automated data collection and visualization for facility operations
+• Reduced manual reporting time by 70% through intelligent automation
+• Automated 50+ daily reports using Python scripts and scheduled tasks
+• Managed and optimized 5+ databases containing operational and maintenance data
+• Improved data accuracy by implementing automated validation checks and error handling
+• Trained 15+ staff members on the new dashboard system and best practices
+• Reduced infrastructure monitoring costs by 40% through process optimization
+
+Technologies Used: Python, SQL, Excel VBA, Data Visualization, Database Management
+
+EDUCATION
+
+Bachelor of Engineering (B.E) - Computer Science & Engineering
+Chennai Institute of Technology (CIT), Chennai
+Graduated: 2024
+
+PROJECTS
+
+1. SaaS Dashboard (Jan 2024 - Mar 2024)
+   - Built a comprehensive analytics platform with real-time data visualization
+   - Features: Real-time Analytics, Export Reports, User Management, API Integration
+   - Tech: Next.js, TypeScript, TailwindCSS, PostgreSQL, Chart.js
+
+2. Authentication System (Apr 2024 - May 2024)
+   - Developed secure authentication system with JWT tokens and OAuth2 integration
+   - Features: JWT Auth, OAuth2 Social Login, Multi-Factor Authentication, 2FA Support
+   - Tech: Node.js, Express, MongoDB, JWT, bcrypt
+
+3. E-Commerce Platform (Jun 2024 - Aug 2024)
+   - Created full-stack e-commerce solution with product catalog and payment integration
+   - Features: Product Catalog, Shopping Cart, Payment Gateway, Order Tracking
+   - Tech: React, Node.js, Stripe, MongoDB, Redux
+
+4. Real-time Chat Application (Sep 2024 - Oct 2024)
+   - Developed chat app with real-time messaging and user presence detection
+   - Features: Real-time Messaging, Typing Indicators, User Status, Message History
+   - Tech: React, WebSocket, Node.js, Firebase, Socket.io
+
+5. AI Content Generator (Oct 2024 - Nov 2024)
+   - Built ML-powered content generation tool with customizable templates
+   - Features: AI Templates, Batch Processing, Quality Metrics, Export Options
+   - Tech: Python, FastAPI, OpenAI API, React, PostgreSQL
+
+KEY COMPETENCIES
+• Full-Stack Web Development
+• Frontend: React, Next.js, Modern CSS
+• Backend: Node.js, Express, RESTful APIs
+• Database Design & Optimization
+• Problem Solving & Algorithm Design
+• Team Collaboration & Communication
+• Agile Development Practices
+
+CERTIFICATIONS & ACHIEVEMENTS
+• Strong Foundation in Data Structures and Algorithms
+• Proficient in System Design and Scalability
+• Experience with Cloud Concepts and DevOps
+• Committed to Continuous Learning & Professional Growth
