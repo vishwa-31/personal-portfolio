@@ -1,21 +1,6 @@
-# Next.js Portfolio Website
-
 This project is a personal portfolio website built using **Next.js (App Router)**.
 The goal is to showcase skills, experience, and projects relevant to landing an **SDE role in 2025**.
 
----
-
-## 🧠 Project Purpose (for GitHub Copilot & future contributors)
-
-This repo should help GitHub Copilot understand the direction and architecture of the project. The portfolio will be **frontend only** (for now) and will follow a modern, minimalistic, dark‑theme UI.
-
-Copilot should:
-
-* Generate components using clean, reusable React + Next.js (App Router) patterns.
-* Follow folder structure conventions (`app/`, `components/`, `public/assets/`).
-* Write TailwindCSS‑based responsive UI.
-
----
 
 ## ✅ Sections of the Portfolio
 
@@ -55,7 +40,7 @@ To target **SDE 2025**, include:
 
 ### 5. **Contact Section**
 
-* Phone: **9361753461**
+* Phone: **93617****61**
 * Email: **[vishwap.cse2023@citchennai.net](mailto:vishwap.cse2023@citchennai.net)**
 * Social links:
 
@@ -63,17 +48,7 @@ To target **SDE 2025**, include:
   * GitHub
 * Include a contact form (optional).
 
----
 
-## 🖼 UI / Wireframe Expectations
-
-* Dark theme throughout the application.
-* Navbar at the top allowing smooth scroll to sections.
-* Accordions for long content (experience or project details).
-* Hero section should visually stand out with enough space for profile image.
-* Components must be visually appealing and follow clean spacing.
-
----
 
 ## 📁 Project Structure (for Copilot)
 
