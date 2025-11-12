@@ -26,15 +26,31 @@ export default function ContactSection() {
     e.preventDefault();
     setLoading(true);
 
-    // Simulate form submission (replace with actual API call)
-    setTimeout(() => {
-      setSubmitted(true);
-      setFormData({ name: '', email: '', subject: '', message: '' });
-      setLoading(false);
+    try {
+      const response = await fetch('/api/send-email', {
+        method: 'POST',
+        headers: {
+          'Content-Type': 'application/json',
+        },
+        body: JSON.stringify(formData),
+      });
 
-      // Reset success message after 3 seconds
-      setTimeout(() => setSubmitted(false), 3000);
-    }, 1000);
+      if (response.ok) {
+        setSubmitted(true);
+        setFormData({ name: '', email: '', subject: '', message: '' });
+
+        // Reset success message after 3 seconds
+        setTimeout(() => setSubmitted(false), 3000);
+      } else {
+        const errorData = await response.json();
+        alert(`Error sending email: ${errorData.error}`);
+      }
+    } catch (error) {
+      console.error('Error:', error);
+      alert('Failed to send message. Please try again.');
+    } finally {
+      setLoading(false);
+    }
   };
 
   return (

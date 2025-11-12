@@ -91,8 +91,8 @@ html.light {
     margin-right: auto;
     padding-left: 1rem;
     padding-right: 1rem;
-    padding-top: 4rem;
-    padding-bottom: 4rem;
+    padding-top: 1rem; /* tighter vertical padding to reduce gaps between sections */
+    padding-bottom: 1rem; /* tighter vertical padding to reduce gaps between sections */
   }
 
   @media (min-width: 768px) {
@@ -213,4 +213,17 @@ html.light {
 
 ::-webkit-scrollbar-thumb:hover {
   background: #0284c7;
+}
+
+/* Tighten vertical spacing between sections globally */
+/* Use !important to ensure this overrides utility classes like py-24 when necessary */
+main > section,
+.section,
+.projects-section,
+.hero-section,
+.contact-section,
+.about-section,
+.footer-section {
+  padding-top: 1rem !important;
+  padding-bottom: 1rem !important;
 }

@@ -33,7 +33,7 @@ const projects: Project[] = [
     tech: ['Node.js', 'Express', 'MongoDB', 'JWT', 'bcrypt'],
     link: '#',
     github: 'https://github.com',
-    image: 'https://images.unsplash.com/photo-1555949519-84e355382633?w=500&h=300&fit=crop',
+    image: 'https://images.unsplash.com/photo-1555066931-4365d14bab8c?auto=format&fit=crop&w=1400&q=80',
     features: ['JWT Auth', 'OAuth2', 'MFA', '2FA Support'],
     timeframe: 'Apr 2024 - May 2024',
   },
@@ -46,7 +46,7 @@ const projects: Project[] = [
     github: 'https://github.com',
     image: 'https://images.unsplash.com/photo-1472099645785-5658abf4ff4e?w=500&h=300&fit=crop',
     features: ['Product Catalog', 'Cart System', 'Payment Gateway', 'Order Tracking'],
-    timeframe: 'Jun 2024 - Aug 2024',
+    timeframe: 'Oct 2024 - Dec 2024',
   },
   {
     id: 4,
@@ -57,7 +57,7 @@ const projects: Project[] = [
     github: 'https://github.com',
     image: 'https://images.unsplash.com/photo-1611532736579-6b16e2b50449?w=500&h=300&fit=crop',
     features: ['Real-time Messaging', 'Typing Indicators', 'User Status', 'Message History'],
-    timeframe: 'Sep 2024 - Oct 2024',
+    timeframe: 'Feb 2025 - Apr 2025',
   },
   {
     id: 5,
@@ -66,15 +66,15 @@ const projects: Project[] = [
     tech: ['Python', 'FastAPI', 'OpenAI API', 'React', 'PostgreSQL'],
     link: '#',
     github: 'https://github.com',
-    image: 'https://images.unsplash.com/photo-1677442d019cecf8d9f27289b96f4ab18f442f3a0?w=500&h=300&fit=crop',
+    image: 'https://images.unsplash.com/photo-1515879218367-8466d910aaa4?auto=format&fit=crop&w=1400&q=80',
     features: ['AI Templates', 'Batch Processing', 'Quality Metrics', 'Export Options'],
-    timeframe: 'Oct 2024 - Nov 2024',
+    timeframe: 'Oct 2025 - Nov 2025',
   },
 ];
 
 export default function ProjectsSection() {
   return (
-    <section id="projects" className="dark:bg-dark-900 light:bg-slate-50 py-24">
+    <section id="projects" className="dark:bg-dark-900 light:bg-slate-50 py-6">
       <div className="container-section">
         {/* Section Header */}
         <div className="text-center mb-16 animate-fadeIn">

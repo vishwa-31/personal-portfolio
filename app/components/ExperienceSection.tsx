@@ -18,7 +18,7 @@ const experiences: Experience[] = [
     id: 1,
     company: 'SAIL (Salem Steel Plant)',
     position: 'Intern - Computer & Information Technology',
-    duration: 'May 2023 - July 2023',
+    duration: 'May 2025 - July 2025',
     description:
       'Developed and deployed a comprehensive reporting dashboard that automated data collection and visualization for facility operations. Managed multiple databases and improved reporting efficiency across departments.',
     accomplishments: [
